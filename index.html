@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nickland</title> <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Define a fonte Inter como padrão */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Estilo de fundo rosa suave */
+        .kitten-pink-bg {
+            background: linear-gradient(to bottom right, #fbcfe8, #f472b6); /* Gradiente rosa claro para rosa mais forte */
+        }
+        /* Estilo para os botões com cores e ícones */
+        .btn-kitten {
+            background-color: #f9a8d4; /* Rosa médio */
+            color: #4a5568; /* Texto cinza escuro para contraste */
+            font-weight: bold;
+            padding: 12px 24px;
+            border-radius: 9999px; /* Botão arredondado */
+            transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em; /* Aumenta um pouco o tamanho do ícone/texto */
+        }
+        .btn-kitten:hover {
+            background-color: #f472b6; /* Rosa mais forte ao passar o mouse */
+            transform: translateY(-2px); /* Efeito sutil ao passar o mouse */
+        }
+        .btn-kitten i {
+            margin-right: 10px; /* Espaço entre o ícone e o texto */
+        }
+        /* Estilo para os emojis de decoração */
+        .decoration-emoji {
+            display: inline-block;
+            margin: 0 5px; /* Espaço ao redor dos emojis */
+        }
+    </style>
+</head>
+<body class="kitten-pink-bg min-h-screen flex items-center justify-center p-4">
+
+    <div class="bg-white bg-opacity-80 p-8 rounded-xl shadow-lg text-center max-w-sm w-full">
+        <h1 class="text-3xl font-bold text-gray-800 mb-4">
+            <span class="decoration-emoji">🍓</span> Bem-vindos! <span class="decoration-emoji">🍓</span>
+        </h1>
+
+        <p class="text-gray-600 mb-6">
+            Olá! Eu sou o Nick. Seja bem-vindo ao meu site! Como uma pessoa apaixonada por música, expressões artísticas e escrita, criei este espaço para compartilhar um pouco do que amo com você. Espero que aproveite a visita e encontre algo que te inspire! <span class="decoration-emoji">🐱</span>
+        </p>
+        <p class="text-gray-600 mb-8">Encontre meus links principais aqui:</p>
+
+        <div class="space-y-4">
+            <a href="https://open.spotify.com/user/k4rkvvrd4v4rwa19w2072pthz?si=MW_YJRRbS4e8fjwd-Pk8MA" target="_blank" class="btn-kitten">
+                 <i class="fab fa-spotify"></i> Spotify
+            </a>
+
+            <a href="https://www.instagram.com/nicuxin?igsh=MTlhdXVoOWw5ZWtvMw==" target="_blank" class="btn-kitten">
+                <i class="fab fa-instagram"></i> Insta Pessoal
+            </a>
+
+            <a href="https://www.instagram.com/nickdressup?igsh=MTlpMThhdDg2Y3ljaA==" target="_blank" class="btn-kitten">
+                <i class="fab fa-instagram"></i> Insta de cosplays
+            </a>
+
+            <a href="https://www.wattpad.com/user/nicuxin" target="_blank" class="btn-kitten">
+                <i class="fas fa-book"></i> Wattpad
+            </a>
+
+            <a href="https://discord.gg/YYnKZ3CP" target="_blank" class="btn-kitten">
+                <i class="fab fa-discord"></i> Discord
+            </a>
+        </div>
+
+        <p class="text-gray-500 text-sm mt-8">© 2025 Todos os direitos reservados.</p>
+        </div>
+
+</body>
+</html>
+
