@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nickland</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Define a fonte Inter como padrão */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Novo tema de natureza: tons de marrom e verde mais escuros */
+        .nature-theme-bg {
+            background: linear-gradient(to bottom right, #5C4033, #2F4F4F); /* Gradiente de Marrom Escuro para Verde Azulado Escuro */
+        }
+        /* Estilo para os botões com o novo tema */
+        .btn-nature {
+            background-color: #2E8B57; /* Verde Mar Escuro */
+            color: #FDF5E6; /* Texto em Off-white mais quente */
+            font-weight: bold;
+            padding: 12px 24px;
+            border-radius: 9999px; /* Botão arredondado */
+            transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+        }
+        .btn-nature:hover {
+            background-color: #226B41; /* Verde Mar Mais Escuro ao passar o mouse */
+            transform: translateY(-2px);
+        }
+        .btn-nature i {
+            margin-right: 10px;
+        }
+        /* Estilo para os emojis de decoração */
+        .decoration-emoji {
+            display: inline-block;
+            margin: 0 5px;
+        }
+        /* Cores de texto para o novo tema - ajustadas para o card amarelo */
+        .text-heading-nature {
+            color: #2A2F2B; /* Verde-Marrom muito escuro para títulos (quase preto) */
+        }
+        .text-paragraph-nature {
+            color: #3A403A; /* Verde-Marrom escuro para parágrafos */
+        }
+        .text-footer-nature {
+            color: #506050; /* Verde-Cinza para o rodapé */
+        }
+        /* Cor de fundo do card - agora amarelo terroso */
+        .card-bg-nature {
+            background-color: rgba(240, 210, 140, 0.95); /* Amarelo Terroso Suave com opacidade */
+            color: #2A2F2B; /* Cor de texto padrão para o card, se não for sobrescrita */
+        }
+    </style>
+</head>
+<body class="nature-theme-bg min-h-screen flex items-center justify-center p-4">
+
+    <div class="card-bg-nature p-8 rounded-xl shadow-lg text-center max-w-sm w-full">
+        <h1 class="text-3xl font-bold text-heading-nature mb-4">
+            <span class="decoration-emoji">🐾</span> Bem-vindos! <span class="decoration-emoji">🍄‍🟫</span>
+        </h1>
+
+        <p class="text-paragraph-nature mb-6">
+            Olá! Eu sou o Nick. Seja bem-vindo ao meu site! Como uma pessoa apaixonada por música, expressões artísticas e escrita, criei este espaço para compartilhar um pouco do que amo com você. Espero que aproveite a visita e encontre algo que te inspire! <span class="decoration-emoji">🍂</span>
+        </p>
+        <p class="text-paragraph-nature mb-8">Encontre meus links principais aqui:</p>
+
+        <div class="space-y-4">
+            <a href="https://open.spotify.com/user/k4rkvvrd4v4rwa19w2072pthz?si=MW_YJRRbS4e8fjwd-Pk8MA" target="_blank" class="btn-nature">
+                   <i class="fab fa-spotify"></i> Spotify
+            </a>
+
+            <a href="https://www.instagram.com/nicuxin?igsh=MTlhdXVoOWw5ZWkvMw==" target="_blank" class="btn-nature">
+                <i class="fab fa-instagram"></i> Insta Pessoal
+            </a>
+
+            <a href="https://www.instagram.com/nickdressup?igsh=MTlpMThhdDg2Y3ljaA==" target="_blank" class="btn-nature">
+                <i class="fab fa-instagram"></i> Insta de Cosplays
+            </a>
+
+            <a href="https://www.instagram.com/monregardvert/" target="_blank" class="btn-nature">
+                <i class="fab fa-instagram"></i> Insta de Fotografia
+            </a>
+
+            <a href="https://www.wattpad.com/user/nicuxin" target="_blank" class="btn-nature">
+                <i class="fas fa-book"></i> Wattpad
+            </a>
+        </div>
+
+        <p class="text-footer-nature text-sm mt-8">© 2025 Todos os direitos reservados.</p>
+    </div>
+
+</body>
+</html>
